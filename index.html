@@ -66,8 +66,23 @@
     </header>
 	
 	<style>
-	.carousel-item { height:100%; width:100%;}
-img { max-width:100% }
+	.container1 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 80%;
+}
 	</style>
 	
     <!--Carousel-->
@@ -123,8 +138,8 @@ img { max-width:100% }
             traversal missions, and collect visual data, perform planetary analysis, detect the presence of life by
             conducting biosignature tests and help astronauts with equipment servicing.</p>
         </div>
-        <div class="col-lg-6 col-md-12">
-          <iframe width="100%" height="100%" style="max-width:100% ; max-height:100%;"
+        <div class="col-lg-6 col-md-12 container1">
+          <iframe class="responsive-iframe" width="100%" height="100%"
             src="https://www.youtube.com/embed/ZlkIf5Dhgqk"> </iframe>
         </div>
        </div>
@@ -158,18 +173,18 @@ img { max-width:100% }
       <div class="row">
         <h2 class="col-12 text-center p-3 heading">News and updates</h2>
        </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12" style="justify-content: center;">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbracumongoltori%2Fposts%2F1057413148121924&show_text=true&width=500" width="250" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <div class="row" >
+        <div class="col-lg-3 col-md-6 col-sm-12" style="margin:auto;padding-bottom:20px;">
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbracumongoltori%2Fposts%2F1057413148121924&show_text=true&width=500" width="250" height="300" style="border:none;overflow:hidden; display:block; margin:auto;">" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12" style="justify-content: center;">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbracumongoltori%2Fposts%2F1053782555151650&show_text=true&width=500" width="250" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <div class="col-lg-3 col-md-6 col-sm-12" style="margin:auto;padding-bottom:20px;">
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbracumongoltori%2Fposts%2F1053782555151650&show_text=true&width=500" width="250" height="300" style="border:none;overflow:hidden; display:block;margin:auto;">" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12" style="justify-content: center;">
-          <iframe width="250" height="300" src="https://www.youtube.com/embed/2oXj6f-N9iI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="col-lg-3 col-md-6 col-sm-12" style="margin:auto;padding-bottom:20px;">
+          <iframe width="250" height="300" src="https://www.youtube.com/embed/2oXj6f-N9iI" title="YouTube video player" style="display:block;margin:auto;">" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12" style="justify-content: center;">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbracumongoltori%2Fposts%2F919068288623078&show_text=true&width=500" width="250" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <div class="col-lg-3 col-md-6 col-sm-12" style="margin:auto;padding-bottom:20px;">
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbracumongoltori%2Fposts%2F919068288623078&show_text=true&width=500" width="250" height="300" style="border:none;overflow:hidden; display:block;margin:auto;">" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
 		
       <div class="row m-3">
