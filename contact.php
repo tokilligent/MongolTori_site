@@ -106,7 +106,7 @@
       <!--map and message-->
 	  <?php 
 		if(isset($_POST['submit'])){
-			$to = "sadikulalim@gmail.com"; // this is your Email address
+			$to = "mongol-tori@bracu.ac.bd"; // this is your Email address
 			$from = $_POST['email']; // this is the sender's Email address
 			$name = $_POST['name'];
 			$subject = $_POST['subject'];
