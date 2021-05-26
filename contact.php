@@ -24,7 +24,7 @@
           <a class="navbar-brand" href="index.html">
             <img src="assets/images/mtlogo.png" width="120px">
 			&nbsp
-			<img src="assets/images/download.png" width="120px">
+			<img src="assets/images/bracu_logo.png" style="background-color:white;" width="120px">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -106,7 +106,7 @@
       <!--map and message-->
 	  <?php 
 		if(isset($_POST['submit'])){
-			$to = "mongol-tori@bracu.ac.bd"; // this is your Email address
+			$to = "sadikulalim@gmail.com"; // this is your Email address
 			$from = $_POST['email']; // this is the sender's Email address
 			$name = $_POST['name'];
 			$subject = $_POST['subject'];

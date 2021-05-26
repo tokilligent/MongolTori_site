@@ -15,7 +15,25 @@
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     
   </head>
+	<style>
+* {
+  box-sizing: border-box;
+}
 
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 100%;
+  padding: 10px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
   <body>
     <header>
     <!--nav bar-->
@@ -24,7 +42,7 @@
           <a class="navbar-brand" href="index.html">
             <img src="assets/images/mtlogo.png" width="120px">
 			&nbsp
-			<img src="assets/images/download.png" width="120px">
+			<img src="assets/images/bracu_logo.png" style="background-color:white;" width="120px">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -76,30 +94,31 @@
     
     
     <div class="row">
-      <div class="col-12 my-4 column act">
+      <div class="col-12 my-4 column act" style="padding:10px;">
         <h4 class="text-center">Photos of 2020 team</h4>
       </div>
       <div class="container">
-        <div class="gallery column act">
-           <img src="assets/gallery/MT20/mt201.jpg" alt=""  class="gallery-img" /> 
+        <div class="gallery column act"   >
       
-          <img src="assets/gallery_1/mt201.jpg" alt=""  class="gallery-img" />		
-          <img src="assets/gallery_1/mt202.jpg" alt=""  class="gallery-img" />
-          <img src="assets/gallery_1/mt203.jpg" alt=""  class="gallery-img" />
-          <img src="assets/gallery_1/mt205.jpg" alt=""  class="gallery-img" />
+          <div class="column1"><img src="assets/gallery_1/mt201.jpg" alt=""  class="img-fluid gallery-img" >	</div>	
+          <div class="column1"><img src="assets/gallery_1/mt202.jpg"  alt=""  class="img-fluid gallery-img" ></div>
+          <div class="column1"><img src="assets/gallery_1/mt203.jpg"  alt=""  class="img-fluid gallery-img" ></div>
+          <div class="column1"><img src="assets/gallery_1/mt205.jpg"  alt=""  class="img-fluid gallery-img" ></div>
+		  <div class="column1"><img src="assets/images/mt207.jpg"  alt=""  class="img-fluid gallery-img" ></div>
         </div> 
       </div>
     </div>
 	
     <div class="row">
-      <div class="col-12 my-4 column 2019">
+      <div class="col-12 my-4  column 2019">
         <h4 class="text-center">Photos of 2019 team</h4>
       </div>  
       <div class="container">
-        <div class="gallery column 2019">
-          <img src="assets/gallery_1/mt191.jpg" alt=""  class="gallery-img" >
-          <img src="assets/gallery_1/mt192.jpg" alt="" class="gallery-img" >		
-          <img src="assets/gallery_1/mt193.jpg" alt=""  class="gallery-img" >
+        <div class="gallery column 2019" >
+          <div class="column1"> <img src="assets/gallery_1/mt191.jpg"  alt=""  class=" gallery-img"></div>
+          <div class="column1"> <img src="assets/gallery_1/mt192.jpg"  alt=""  class=" gallery-img" ></div>		
+          <div class="column1"> <img src="assets/gallery_1/mt193.jpg"  alt=""  class=" gallery-img" ></div>
+		  
         </div> 
       </div>
     
