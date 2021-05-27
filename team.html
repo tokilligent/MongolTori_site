@@ -4,7 +4,7 @@
     <title>Mongol Tori:team</title>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"">
+    <meta name="viewport" content="width=device-width">
     <meta name="bracu mongol tori" content="website presentation">
     <meta name="keywords" content="about the team, rover, sponsors, recuitment, achivements">
     <meta name="author" content="MD Hashibul Islam">
@@ -14,31 +14,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
   </head>
-  
-  <style>
-  .split {
-  height: 100%;
-  width: 50%;
-  
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-}
-
-.left {
-  left: 0;
-  
-}
-
-.right {
-  right: 0;
-  
-}
-	</style>
 
   <body>
     <header>
@@ -47,8 +22,6 @@
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="assets/images/mtlogo.png" width="120px">
-			&nbsp
-			<img src="assets/images/bracu_logo.png" style="background-color:white;" width="120px">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -62,7 +35,7 @@
                 <a class="nav-link" href="team.html">Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="achivements.html">Achivements</a>
+                <a class="nav-link" href="achivements.html">achivements</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gallery.html">Gallery</a>
@@ -73,14 +46,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="sponsor.html">Sponsors</a>
               </li>
-			  <li class="nav-item">
-                <a class="nav-link" href="other_projects.html">Other Projects</a>
-              </li>
               <li class="nav-item">
                 <a class="nav-link" href="join.html">Join</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.php">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
               
             </ul>
@@ -91,15 +61,12 @@
     <!--team page-->
     <section class="team container">
       <div id="myBtnContainer">
-		
         <button class="btn btn-outline-dark active" onclick="filterSelection('act')">Advisors</button>
-		<!-- <button class="btn btn-outline-dark" onclick="filterSelection('')"> Sub Teams</button> -->
-        <!-- <button class="btn btn-outline-dark" onclick="filterSelection('2020')"> 2020</button> -->
-        <button class="btn btn-outline-dark" onclick="filterSelection('sub_team')"> Sub Teams</button>
-        <button class="btn btn-outline-dark" onclick="filterSelection('2018')"> Team Members</button>
-        <!-- <button class="btn btn-outline-dark" onclick="filterSelection('2017')"> 2017</button>
-        <button class="btn btn-outline-dark" onclick="filterSelection('2016')"> 2016</button> -->
-		
+        <button class="btn btn-outline-dark" onclick="filterSelection('2020')"> 2020</button>
+        <button class="btn btn-outline-dark" onclick="filterSelection('2019')"> 2019</button>
+        <button class="btn btn-outline-dark" onclick="filterSelection('2018')"> 2018</button>
+        <button class="btn btn-outline-dark" onclick="filterSelection('2017')"> 2017</button>
+        <button class="btn btn-outline-dark" onclick="filterSelection('2016')"> 2016</button>
       </div>  
       <!--advisors-->
       <section class="advisors mb-3">
@@ -124,7 +91,7 @@
         <div class="row">
           
           <!--Rabiul Sir-->
-          <div class="col-lg-4 column act mx-auto">
+          <div class="col-lg-4 col-md-6 col-sm-12 column act mx-auto">
             <div class="card h-100">
               <img src="assets/advisors/GRA.jpg" class="card-img-top" alt="...">
               <div class="card-body d-flex flex-column ">
@@ -135,222 +102,40 @@
             </div>
           </div>
           <!--Saiful sir-->
-          
+          <div class="col-lg-4 col-md-6 col-sm-12 column act mx-auto">
+            <div class="card h-100">
+              <img src="assets/advisors/MSI.jpeg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column ">
+                <h5 class="card-title">Md.Saiful Islam</h5>
+                <h6 class="card-title">Lecturer, BRAC Univerity</h6>
+                <a href="https://www.bracu.ac.bd/about/people/mdsaiful-islam" class="btn btn-outline-dark mt-auto" target="_black">More info</a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
        <!--team-->
       <!--2019-->
       <section class="team">
-        <div class="row column sub_team">
-          <h2 class="col-12 text-center p-3 heading column sub_team">Sub Team Details</h2>
-		  <section class="container">
-      <!-- <div class="row">
-
-		<div class="col-lg-6 col-sm-12 my-3">
-          <h4>Artificial Intelligence</h4>
-          <p class="text-justify">Computer Vision is the focus of the Artificial Intelligence Team. This group's responsibilities include data collection, annotation, exploration, visualization, model training, and prediction.</p>
+        <div class="row column 2019">
+          <h2 class="col-12 text-center p-3 heading column 2019">Team of 2019</h2>
         </div>
-        <div class="col-lg-6 col-sm-12 my-3">
-          <img src="assets/images/ai.png" class="img-fluid">
-        </div>
-		
-		<div class="col-lg-6 col-sm-12 my-3">
-          <img src="assets/images/auto.png" class="img-fluid">
-        </div>
-		<div class="col-lg-6 col-sm-12 my-3">
-          <h4>Autonomous</h4>
-          <p class="text-justify">The Autonomous Team uses a variety of sensors and algorithms to design and develop the autonomous navigation system. The system is self-sufficient and capable of GPS navigation, shortest path calculation, detection of AR tags, and obstacle avoidance, among other functions.</p>
-        </div>
-        
-		
-		<div class="col-lg-6 col-sm-12 my-3">
-          <h4>Design</h4>
-          <p class="text-justify">The Design Team develops 3D CAD and Virtual Simulations for different mechanical parts individually and the total rover as well. These simulations are essential in the decision-making of a new idea before going for the prototype.</p>
-        </div>
-        <div class="col-lg-6 col-sm-12 my-3">
-          <img height="100" src="assets/images/design.png"  class="img-fluid">
-        </div>
-		
-		<div class="col-lg-6 col-sm-12 my-3">
-          <img src="assets/images/electric.png" class="img-fluid">
-        </div>
-        <div class="col-lg-6 col-sm-12 my-3">
-          <h4>Electronics</h4>
-          <p class="text-justify">The Electronics Team takes care of the electronic system and power unit, which involves everything from PCB design to circuit implementation to wiring testing.</p>
-        </div>
-		
-        <div class="col-lg-6 col-sm-12 my-3">
-          <h4>Finance and Management</h4>
-          <p class="text-justify">Planning preparation, logistics & documentation, member recruiting and training, outreach events, and sponsorship management are the duties of the Management & Finance Team.</p>
-        </div>
-		<div class="col-lg-6 col-sm-12 my-3">
-          <img src="assets/images/mgt.png" class="img-fluid">
-        </div>
-		
-		<div class="col-lg-6 col-sm-12 my-3">
-          <img src="assets/images/mechanical.png" class="img-fluid">
-        </div>
-		<div class="col-lg-6 col-sm-12 my-3">
-          <h4>Mechanical</h4>
-          <p class="text-justify">The Mechanical Team focuses on the machine and rover structure construction, such as arm and gripper development, wheel suspension, and complete mechanical system evaluation.</p>
-        </div>
-        
-		
-		<div class="col-lg-6 col-sm-12 my-3">
-          <h4>Network and Communications</h4>
-          <p class="text-justify">The Network & Vision Team installs P2P communication. They set up the infrastructure at both the base station and the rover, including mounting routers, configuring cameras etc.</p>
-        </div>
-        <div class="col-lg-6 col-sm-12 my-3">
-          <img src="assets/images/comm.png" class="img-fluid">
-        </div>
-		
-		<div class="col-lg-6 col-sm-12 my-3">
-          <img src="assets/images/writing.jpg" class="img-fluid">
-        </div>
-		<div class="col-lg-6 col-sm-12 my-3">
-          <h4>Research and Documentation</h4>
-          <p class="text-justify">The Research and Documentation Team mainly prepares and submits the Preliminary Design Review and System Acceptance Review. It also oversees the editorial of other necessary documents of the team.</p>
-        </div>
-        
-        <div class="col-lg-6 col-sm-12 my-3">
-          <h4>Science</h4>
-          <p class="text-justify">The Science Team is responsible for sensor fusion & onboard scientific analysis.  Necessary soil and chemical testings are archived by sensors calibration, integration, and data collection.</p>
-        </div>
-		<div class="col-lg-6 col-sm-12 my-3">
-          <img src="assets/images/science.png" class="img-fluid">
-        </div>
-
-		
-        <div class="col-lg-6 col-sm-12 my-3">
-          <img src="assets/images/soft.png" class="img-fluid">
-        </div>
-		<div class="col-lg-6 col-sm-12 my-3">
-          <h4>Software and control</h4>
-          <p class="text-justify">Using efficient control architecture and easy-to-use Graphical User Interface, the Control & Software Team establishes and improves a complete control system for the rover.</p>
-        </div>
-        
-		
-		
-		
-      </div> -->
-	  
-	  <div class="row">
-
-		<div class="split left">
-          <h4>Artificial Intelligence</h4>
-          <p class="text-justify">Computer Vision is the focus of the Artificial Intelligence Team. This group's responsibilities include data collection, annotation, exploration, visualization, model training, and prediction.</p>
-        </div>
-        <div class="split right">
-          <img src="assets/images/ai.png" class="img-fluid">
-        </div>
-		
-		<div class="split left">
-          <img src="assets/images/auto.png" class="img-fluid">
-        </div>
-		<div class="split right">
-          <h4>Autonomous</h4>
-          <p class="text-justify">The Autonomous Team uses a variety of sensors and algorithms to design and develop the autonomous navigation system. The system is self-sufficient and capable of GPS navigation, shortest path calculation, detection of AR tags, and obstacle avoidance, among other functions.</p>
-        </div>
-        
-		
-		<div class="split left">
-          <h4>Design</h4>
-          <p class="text-justify">The Design Team develops 3D CAD and Virtual Simulations for different mechanical parts individually and the total rover as well. These simulations are essential in the decision-making of a new idea before going for the prototype.</p>
-        </div>
-        <div class="split right">
-          <img height="100" src="assets/images/design.png"  class="img-fluid">
-        </div>
-		
-		<div class="split left">
-          <img src="assets/images/electric.png" class="img-fluid">
-        </div>
-        <div class="split right">
-          <h4>Electronics</h4>
-          <p class="text-justify">The Electronics Team takes care of the electronic system and power unit, which involves everything from PCB design to circuit implementation to wiring testing.</p>
-        </div>
-		
-        <div class="split left">
-          <h4>Finance and Management</h4>
-          <p class="text-justify">Planning preparation, logistics & documentation, member recruiting and training, outreach events, and sponsorship management are the duties of the Management & Finance Team.</p>
-        </div>
-		<div class="split right">
-          <img src="assets/images/mgt.png" class="img-fluid">
-        </div>
-		
-		<div class="split left">
-          <img src="assets/images/mechanical.png" class="img-fluid">
-        </div>
-		<div class="split right">
-          <h4>Mechanical</h4>
-          <p class="text-justify">The Mechanical Team focuses on the machine and rover structure construction, such as arm and gripper development, wheel suspension, and complete mechanical system evaluation.</p>
-        </div>
-        
-		
-		<div class="split left">
-          <h4>Network and Communications</h4>
-          <p class="text-justify">The Network & Vision Team installs P2P communication. They set up the infrastructure at both the base station and the rover, including mounting routers, configuring cameras etc.</p>
-        </div>
-        <div class="split right">
-          <img src="assets/images/comm.png" class="img-fluid">
-        </div>
-		
-		<div class="split left">
-          <img src="assets/images/writing.jpg" class="img-fluid">
-        </div>
-		<div class="split right">
-          <h4>Research and Documentation</h4>
-          <p class="text-justify">The Research and Documentation Team mainly prepares and submits the Preliminary Design Review and System Acceptance Review. It also oversees the editorial of other necessary documents of the team.</p>
-        </div>
-        
-        <div class="split left">
-          <h4>Science</h4>
-          <p class="text-justify">The Science Team is responsible for sensor fusion & onboard scientific analysis.  Necessary soil and chemical testings are archived by sensors calibration, integration, and data collection.</p>
-        </div>
-		<div class="split right">
-          <img src="assets/images/science.png" class="img-fluid">
-        </div>
-
-		
-        <div class="split left">
-          <img src="assets/images/soft.png" class="img-fluid">
-        </div>
-		<div class="split right">
-          <h4>Software and control</h4>
-          <p class="text-justify">Using efficient control architecture and easy-to-use Graphical User Interface, the Control & Software Team establishes and improves a complete control system for the rover.</p>
-        </div>
-        
-		
-		
-		
-      </div>
-    </section>
-        </div>
-	  
-	  </section>
-      </section>
-
-      <!--team-->
-      <!--2018-->
-      <section class="team">
-        <!-- <div class="row column 2018">
-          <h2 class="col-12 text-center p-3 heading column 2018">Team of 2018</h2>
-        </div> -->
 
         <!--team lead-->
         <div class="row mx-auto">
-          <h4 class="col-12 text-center p-3 heading column 2018">Team leader</h4>
-          <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto" style="padding-bottom:20px">
+          <h4 class="col-12 text-center p-3 heading column 2019">Team leader</h4>
+          <div class="col-lg-4 column 2019 mx-auto">
             <div class="card h-100">
-              <img src="assets/team_1/firoz.jpg"  class="card-img-top" alt="...">
+              <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
               <div class="card-body d-flex flex-column ">
-                <h5 class="card-title text-center">Md. Firoz Wadud</h5>
-                <p class="card-text text-center">Team Lead & Sub-Team Lead, Electronics & Autonomous</p>
+                <h5 class="card-title text-center">Name</h5>
+                <p class="card-text text-center">Team Lead</p>
                 <div class=" row team_contact mx-auto">
                   <div class="col">
-                    <a href="https://www.facebook.com/fthemac" target="_blank" class="fa fa-facebook"></a>
-                    <a href="https://www.linkedin.com/in/md-firoz-wadud-878a40212/?fbclid=IwAR2rNn7X2ZoboZEzxVuSIwkygtoeH3DFVrI3CuBuUDr9LePlw16BaIsae1U" target="_blank" class="fa fa-linkedin"></a>
-                    <!-- <a href="" target="_blank" class="fa fa-github"></a> -->
+                    <a href="" target="_blank" class="fa fa-facebook"></a>
+                    <a href="" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="" target="_blank" class="fa fa-github"></a>
                   </div>
                 </div>
               </div>
@@ -362,127 +147,12 @@
         <!--team-->
         <section class="soft">
           <div class="row mx-auto mb-2">
-            
-            
-            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto" style="padding-bottom:20px">
-              <div class="card h-100">
-                <img src="assets/team_1/hashib.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column ">
-                  <h5 class="card-title text-center">Hashibul Islam</h5>
-                  <p class="card-text text-center">Sub-Team Lead, Network and Communications Team</p>
-                  <div class=" row team_contact mx-auto">
-                    <div class="col">
-                      <a href="https://www.facebook.com/ihashib" target="_blank" class="fa fa-facebook"></a>
-                      <a href="https://www.linkedin.com/in/ihashib/" target="_blank" class="fa fa-linkedin"></a>
-                      <a href="https://github.com/ihashib?fbclid=IwAR0safojcX45spPoH0SJ-d5eprxHqY_kckYWyzafwYvESQt9zEUXLP-aVXI" target="_blank" class="fa fa-github"></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto" style="padding-bottom:20px">
-              <div class="card h-100">
-                <img src="assets/team_1/raihan.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column ">
-                  <h5 class="card-title text-center">Md. Raihan Rahman</h5>
-                  <p class="card-text text-center">Sub-Team Lead, Finance and Management</p>
-                  <div class=" row team_contact mx-auto">
-                    <div class="col">
-                      <a href="https://www.facebook.com/mri5.raihan" target="_blank" class="fa fa-facebook"></a>
-                      <a href="https://www.linkedin.com/in/raihan-rahman-769860148" target="_blank" class="fa fa-linkedin"></a>
-                      <a href="https://github.com/raihan-rahman" target="_blank" class="fa fa-github"></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-			<div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto" style="padding-bottom:20px">
-              <div class="card h-100">
-                <img src="assets/team_1/salman.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column ">
-                  <h5 class="card-title text-center">Salman Ibne Eunus</h5>
-                  <p class="card-text text-center">Sub-Team Lead, Artificial Intelligence</p>
-                  <div class=" row team_contact mx-auto">
-                    <div class="col">
-                      <a href="https://www.facebook.com/Salman.Eunus" target="_blank" class="fa fa-facebook"></a>
-                      <a href="https://www.linkedin.com/in/salman-ibne-eunus-09255a144/" target="_blank" class="fa fa-linkedin"></a>
-                      <a href="https://github.com/SalmanEunus27" target="_blank" class="fa fa-github"></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto" style="padding-bottom:20px">
-              <div class="card h-100">
-                <img src="assets/team_1/mashiyat.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column ">
-				&nbsp &nbsp &nbsp 
-                  <h5 class="card-title text-center">&nbsp Mashiat Mamun Raidah</h5>
-                  <p class="card-text text-center">Sub-Team Lead, Design</p>
-                  <div class=" row team_contact mx-auto">
-                    <div class="col">
-                      <a href="https://www.facebook.com/mashiat.mamun.raidah" target="_blank" class="fa fa-facebook"></a>
-                      <a href="https://www.linkedin.com/in/mashiat-mamun-raidah-6500561a7/" target="_blank" class="fa fa-linkedin"></a>
-                      <!-- <a href="" target="_blank" class="fa fa-github"></a> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-			<div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto" style="padding-bottom:20px">
-              <div class="card h-100">
-                <img src="assets/team_1/ashik.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column ">
-                  <h5 class="card-title text-center">Ashik Adnan</h5>
-                  <p class="card-text text-center">Sub-Team Lead, Software and Control</p>
-                  <div class=" row team_contact mx-auto">
-                    <div class="col">
-                      <a href="https://www.facebook.com/theashikadnan" target="_blank" class="fa fa-facebook"></a>
-                      <a href="https://www.linkedin.com/in/theashikadnan/" target="_blank" class="fa fa-linkedin"></a>
-                      <a href="https://github.com/theashikadnan" target="_blank" class="fa fa-github"></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto" style="padding-bottom:20px">
-              <div class="card h-100">
-                <img src="assets/team_1/joy.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column ">
-                  <h5 class="card-title text-center">Shahriar Hossain</h5>
-                  <p class="card-text text-center">Sub-Team Lead, Science & Research and Documentation </p>
-                  <div class=" row team_contact mx-auto">
-                    <div class="col">
-                      <a href="https://www.facebook.com/king.depthocon" target="_blank" class="fa fa-facebook"></a>
-                      <a href="https://www.linkedin.com/in/shahriar-hossain-a78258135/" target="_blank" class="fa fa-linkedin"></a>
-                      <a href="https://github.com/purpleLightningG" target="_blank" class="fa fa-github"></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto" style="padding-bottom:20px">
-              <div class="card h-100">
-                <img src="assets/team_1/choto_hasib.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column ">
-                  <h5 class="card-title text-center">Hasibul Alam</h5>
-                  <p class="card-text text-center">Sub-Team Lead, Mechanical</p>
-                  <div class=" row team_contact mx-auto">
-                    <div class="col">
-                      <a href="https://www.facebook.com/hasibul.alam.11" target="_blank" class="fa fa-facebook"></a>
-                      <a href="https://www.linkedin.com/in/hasibul-alam-8baa99182/" target="_blank" class="fa fa-linkedin"></a>
-                      <a href="https://github.com/A-S-M-Hasibul-Alam" target="_blank" class="fa fa-github"></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto">
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2019 mx-auto">
               <div class="card h-100">
                 <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
                 <div class="card-body d-flex flex-column ">
-                  <h5 class="card-title text-center"></h5>
-                  <p class="card-text text-center"></p>
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Software</p>
                   <div class=" row team_contact mx-auto">
                     <div class="col">
                       <a href="" target="_blank" class="fa fa-facebook"></a>
@@ -492,14 +162,1390 @@
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2019 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Electornics</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2019 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Network and Communications Team</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2019 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Finance and Management</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2019 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Design</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2019 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Science</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2019 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Writing and Publications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2019 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Mechanical</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </section>
 
-     
+      <!--team-->
+      <!--2018-->
+      <section class="team">
+        <div class="row column 2018">
+          <h2 class="col-12 text-center p-3 heading column 2018">Team of 2018</h2>
+        </div>
 
-      
+        <!--team lead-->
+        <div class="row mx-auto">
+          <h4 class="col-12 text-center p-3 heading column 2018">Team leader</h4>
+          <div class="col-lg-4 column 2018 mx-auto">
+            <div class="card h-100">
+              <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column ">
+                <h5 class="card-title text-center">Name</h5>
+                <p class="card-text text-center">Team Lead</p>
+                <div class=" row team_contact mx-auto">
+                  <div class="col">
+                    <a href="" target="_blank" class="fa fa-facebook"></a>
+                    <a href="" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="" target="_blank" class="fa fa-github"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <!--team-->
+        <section class="soft">
+          <div class="row mx-auto mb-2">
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Software</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Electornics</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Network and Communications Team</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Finance and Management</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Design</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Science</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Writing and Publications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2018 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Mechanical</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!--team-->
+      <!--2017-->
+      <section class="team">
+        <div class="row column 2017">
+          <h2 class="col-12 text-center p-3 heading column 2017">Team of 2017</h2>
+        </div>
+
+        <!--team lead-->
+        <div class="row mx-auto">
+          <h4 class="col-12 text-center p-3 heading column 2017">Team leader</h4>
+          <div class="col-lg-4 column 2017 mx-auto">
+            <div class="card h-100">
+              <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column ">
+                <h5 class="card-title text-center">Name</h5>
+                <p class="card-text text-center">Team Lead</p>
+                <div class=" row team_contact mx-auto">
+                  <div class="col">
+                    <a href="" target="_blank" class="fa fa-facebook"></a>
+                    <a href="" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="" target="_blank" class="fa fa-github"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <!--team-->
+        <section class="soft">
+          <div class="row mx-auto mb-2">
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2017 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Software</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2017 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Electornics</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2017 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Network and Communications Team</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2017 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Finance and Management</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2017 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Design</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2017 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Science</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2017 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Writing and Publications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2017 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Mechanical</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!--team-->
+      <!--2016-->
+      <section class="team">
+        <div class="row column 2016">
+          <h2 class="col-12 text-center p-3 heading column 2016">Team of 2016</h2>
+        </div>
+
+        <!--team lead-->
+        <div class="row mx-auto">
+          <h4 class="col-12 text-center p-3 heading column 2016">Team leader</h4>
+          <div class="col-lg-4 column 2016 mx-auto">
+            <div class="card h-100">
+              <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column ">
+                <h5 class="card-title text-center">Name</h5>
+                <p class="card-text text-center">Team Lead</p>
+                <div class=" row team_contact mx-auto">
+                  <div class="col">
+                    <a href="" target="_blank" class="fa fa-facebook"></a>
+                    <a href="" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="" target="_blank" class="fa fa-github"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <!--team-->
+        <section class="soft">
+          <div class="row mx-auto mb-2">
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2016 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Software</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2016 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Electornics</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2016 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Network and Communications Team</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2016 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Finance and Management</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2016 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Design</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2016 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Science</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2016 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Writing and Publications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2016 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Mechanical</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!--team-->
+      <!--2020-->
+      <section class="team">
+        <div class="row column 2020">
+          <h2 class="col-12 text-center p-3 heading column 2020">Team of 2020</h2>
+        </div>
+
+        <!--team lead-->
+        <div class="row mx-auto">
+          <h4 class="col-12 text-center p-3 heading column 2020">Team leader</h4>
+          <div class="col-lg-4 column 2020 mx-auto">
+            <div class="card h-100">
+              <img src="assets/team/firoz.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column ">
+                <h5 class="card-title text-center">Firoz Wadud</h5>
+                <p class="card-text text-center">Team Lead<br>Sub-team lead, Electornics</p>
+                <div class=" row team_contact mx-auto">
+                  <div class="col">
+                    <a href="" target="_blank" class="fa fa-facebook"></a>
+                    <a href="" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="" target="_blank" class="fa fa-github"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Management team-->
+        <section class="soft">
+          <!--Management lead-->
+          <div class="row mx-auto mb-2">
+            <h4 class="col-12 text-center p-3 heading column 2020">Finance and Management</h4>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2020 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/raihan.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">Raihan Rahman</h5>
+                  <p class="card-text text-center">Sub-team lead, Finance and Management</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Management members-->
+          <div class="row mb-2">
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">Name</h5>
+                  <p class="card-text text-center">, Finance and Management</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Finance and Management</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Finance and Management</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Finance and Management</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        
+        
+        <!--electronics team-->
+        <section class="soft">
+          <!--electronics lead-->
+          <div class="row mx-auto mb-2">
+            <h4 class="col-12 text-center p-3 heading column 2020">Electronics Team</h4>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2020 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/firoz.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">Firoz Wadud</h5>
+                  <p class="card-text text-center">Tead Lead<br>Sub-team lead, Electronics</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--electronics members-->
+          <div class="row mb-2">
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Electornics</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Electornics</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Electornics</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Electornics</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+
+        <!--net and comms team-->
+        <section class="soft">
+          <!--net and comms lead-->
+          <div class="row mx-auto mb-2">
+            <h4 class="col-12 text-center p-3 heading column 2020">Network and Communications Team</h4>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2020 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/hashib.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">Hashib Islam</h5>
+                  <p class="card-text text-center">Sub-team lead, Network and Communications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--net and comm members-->
+          <div class="row mb-2">
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Network and Communications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Network and Communications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Network and Communications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Network and Communications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+
+        <!--software team-->
+        <section class="soft">
+          <!--software lead-->
+          <div class="row mx-auto mb-2">
+            <h4 class="col-12 text-center p-3 heading column 2020">Software and Control Team</h4>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2020 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/ashik.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">Ashik Adnan</h5>
+                  <p class="card-text text-center">Sub-team lead, Software and Control</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--software members-->
+          <div class="row mb-2">
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/labib.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">Nefaur Rahman Labib</h5>
+                  <p class="card-text text-center">Senior, Software and Control</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Software and Control</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Software and Control</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Software and Control</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+
+        <!--wirting-->
+        <section class="soft">
+          <!-- lead-->
+          <div class="row mx-auto mb-2">
+            <h4 class="col-12 text-center p-3 heading column 2020">Writing and Publications</h4>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2020 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/joy.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">Shahriar Hossain</h5>
+                  <p class="card-text text-center">Sub-team lead, Writing and Publications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- members-->
+          <div class="row mb-2">
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Writing and Publications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Writing and Publications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Writing and Publications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Writing and Publications</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        
+
+        <!--Design team-->
+        <section class="soft">
+          <!--Design lead-->
+          <div class="row mx-auto mb-2">
+            <h4 class="col-12 text-center p-3 heading column 2020">Design team</h4>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2020 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/mashiyat.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">Mashiyat Mamun Rydah</h5>
+                  <p class="card-text text-center">Sub-team lead, Design</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Design members-->
+          <div class="row mb-2">
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Design</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Design</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Design</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Design</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+
+        <!--science team-->
+        <section class="soft">
+          <!--Science lead-->
+          <div class="row mx-auto mb-2">
+            <h4 class="col-12 text-center p-3 heading column 2020">Science</h4>
+            <div class="col-lg-4 col-md-6 col-sm-12 column 2020 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">Name</h5>
+                  <p class="card-text text-center">Sub-team lead, Science</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Science members-->
+          <div class="row mb-2">
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Science</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Science</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Science</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Science</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+
+        <!--science team-->
+        <section class="soft">
+          <!--Science lead-->
+          <div class="row mx-auto mb-2">
+            <h4 class="col-12 text-center p-3 heading column 2020">Mechanical Team</h4>
+            <!--<div class="col-lg-4 col-md-6 col-sm-12 column 2020 mx-auto">
+              <div class="card h-100">
+                <img src="assets/team/ashik.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">Sub-team lead, Mechanical</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+          </div>
+
+          <!--Mechanical members-->
+          <div class="row mb-2">
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Mechanical</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Mechanical</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Mechanical</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 column 2020">
+              <div class="card h-100">
+                <img src="assets/team/dummy_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title text-center">name</h5>
+                  <p class="card-text text-center">, Mechanical</p>
+                  <div class=" row team_contact mx-auto">
+                    <div class="col">
+                      <a href="" target="_blank" class="fa fa-facebook"></a>
+                      <a href="" target="_blank" class="fa fa-linkedin"></a>
+                      <a href="" target="_blank" class="fa fa-github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        
+      </section>
 
      
       
@@ -509,8 +1555,7 @@
     <footer class="footer ">
       <a href="https://www.facebook.com/bracumongoltori/" target="_blank" class="fa fa-facebook"></a>
       <a href="https://www.youtube.com/channel/UCc2N93zxSEi8roo1JZ_YVZg" target="_blank" class="fa fa-youtube"></a>
-	  <a href="https://www.linkedin.com/company/bracu-mongol-tori/" target="_blank" class="fa fa-linkedin"></a>
-      <p class="mt-2">BRACU Mongol-Tori</p>
+      <p class="mt-2">BRACU Mongol-Tori | 2020</p>
     </footer>
      <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
